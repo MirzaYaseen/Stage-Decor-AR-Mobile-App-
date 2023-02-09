@@ -1,0 +1,100 @@
+{
+  materials: [
+    {
+      name: '1001',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'fdd56bc66803368300ea784640a8b7a09116719e',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '1d2d9d82e983915bb93bd6b93088cb9372f72659',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'b8b5dc577264cd33b511babb6341dbc9336ed404',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/vintage_coffee_table_70s_freebie.glb',
+    name: 'vintage_coffee_table_70s_freebie',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      name: 'fdd56bc66803368300ea784640a8b7a09116719e',
+      pipeline_name: '*0',
+    },
+    {
+      name: 'b8b5dc577264cd33b511babb6341dbc9336ed404',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '*1',
+    },
+    {
+      name: '1d2d9d82e983915bb93bd6b93088cb9372f72659',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*2',
+    },
+  ],
+  version: '0.54:2',
+}

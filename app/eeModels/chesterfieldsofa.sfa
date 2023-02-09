@@ -1,0 +1,183 @@
+{
+  materials: [
+    {
+      name: 'Leather_mat',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: 'a2bfbdc45edbf375b5d5282b6bcc343d797618cb',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '9f39e95465affb6139c0a1a0d19ad6bc7718a059',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 0.84999999999999998,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: '7a98a6e6f7ec18328cea8373b3fd5c6d0ae9fd65',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+    {
+      name: 'wood_mat',
+      parameters: [
+        {
+          baseColorFactor: [
+            0.75,
+            0.75,
+            0.75,
+            1,
+          ],
+        },
+        {
+          baseColor: 'cd8ab2202e25cb9c255a59f69da48ca894bbb72b',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '992dc585ac62bbc4f129602ce1f7e110fa7ce92c',
+        },
+        {
+          metallicFactor: 0,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'da2bd0efa8cddd0abc8a26f040edf7a6e7e4e09f',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/chesterfield-sofa.glb',
+    name: 'chesterfield-sofa',
+    recenter: 'root',
+    scale: 0.96954899999999999,
+  },
+  samplers: [
+    {
+      name: 'a2bfbdc45edbf375b5d5282b6bcc343d797618cb',
+      pipeline_name: '*0',
+    },
+    {
+      name: '7a98a6e6f7ec18328cea8373b3fd5c6d0ae9fd65',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '*1',
+    },
+    {
+      name: '9f39e95465affb6139c0a1a0d19ad6bc7718a059',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*2',
+    },
+    {
+      name: 'cd8ab2202e25cb9c255a59f69da48ca894bbb72b',
+      pipeline_name: '*3',
+    },
+    {
+      name: 'da2bd0efa8cddd0abc8a26f040edf7a6e7e4e09f',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '*4',
+    },
+    {
+      name: '992dc585ac62bbc4f129602ce1f7e110fa7ce92c',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*5',
+    },
+  ],
+  version: '0.54:2',
+}

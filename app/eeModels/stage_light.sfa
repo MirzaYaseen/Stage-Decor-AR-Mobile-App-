@@ -1,0 +1,105 @@
+{
+  materials: [
+    {
+      name: 'stage_light_tx',
+      parameters: [
+        {
+          baseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColor: '04b5c381dbd35d6a43710cb0821d660734f71f89',
+        },
+        {
+          diffuseColorFactor: null,
+        },
+        {
+          diffuseColor: null,
+        },
+        {
+          normal: '112f23aac563f0edc238028bf2aed5c5a5f92884',
+        },
+        {
+          metallicFactor: 1,
+        },
+        {
+          roughnessFactor: 1,
+        },
+        {
+          specularFactor: null,
+        },
+        {
+          glossinessFactor: null,
+        },
+        {
+          specularGlossiness: null,
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: 'f3c90f8aa1d38bdb0887fdcc19e28dfe7ac7b1c4',
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          emissive: '637c621d744f67b4284dc356bc210172db0e28c3',
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampleData/stage_light.glb',
+    name: 'stage_light',
+    recenter: 'root',
+    scale: 0.20003499999999999,
+  },
+  samplers: [
+    {
+      name: '04b5c381dbd35d6a43710cb0821d660734f71f89',
+      pipeline_name: '*0',
+    },
+    {
+      name: 'f3c90f8aa1d38bdb0887fdcc19e28dfe7ac7b1c4',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '*1',
+    },
+    {
+      name: '112f23aac563f0edc238028bf2aed5c5a5f92884',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*2',
+    },
+    {
+      name: '637c621d744f67b4284dc356bc210172db0e28c3',
+      pipeline_name: '*3',
+    },
+  ],
+  version: '0.54:2',
+}
